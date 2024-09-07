@@ -1,0 +1,61 @@
+.redbox {
+    border: 1px solid black;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  .greenbox {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: green;
+    width: 200px;
+    height: 200px;
+  }
+  .maincontainer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    width: 100vw; 
+
+}
+.word {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+    font-size: 24px; 
+    color: #333; 
+    line-height: 1.5;
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+    
+
+
+.custom-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.custom-button:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
